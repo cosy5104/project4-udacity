@@ -1,0 +1,6 @@
+Error from server (AlreadyExists): pods "imgdocker123" already exists
+NAME           READY   STATUS    RESTARTS   AGE
+imgdocker123   1/1     Running   0          2m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
