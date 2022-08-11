@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/cosy5104/project4-udacity.svg?style=svg&circle-token=<YOUR_STATUS_API_TOKEN>)](<LINK>)
 
 ## Project Overview
 
