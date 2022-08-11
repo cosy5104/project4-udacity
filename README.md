@@ -27,11 +27,10 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 * Create a virtualenv with Python 3.7 and activate it. Refer to this link for help on specifying the Python version in the virtualenv. 
 ```bash
-python3 -m pip install --user virtualenv
+python3 -m venv ~/.devops
 # You should have Python 3.7 available in your host. 
 # Check the Python path using `which python3`
 # Use a command similar to this one:
-python3 -m virtualenv --python=<path-to-Python3.7> .devops
 source .devops/bin/activate
 ```
 * Run `make install` to install the necessary dependencies
@@ -41,6 +40,7 @@ source .devops/bin/activate
 1. Standalone:  `python app.py`
 2. Run in Docker:  `./run_docker.sh`
 3. Run in Kubernetes:  `./run_kubernetes.sh`
+4. Make predictions: `./make_prediction.sh`
 
 ### Kubernetes Steps
 
@@ -48,3 +48,18 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+### The Files included:
+
+* `.circleci` - circleci configuration script
+* `model_data` - ML model data (model, csv data)
+* `output_txt_files` - The project output files (docker, kubernetes)
+    * `docker_out.txt` - run_docker.sh output file
+    * `kubernetes_out.txt` - run_kubernetes.sh output file
+* `app.py` - main executabe file
+* `Dockerfile` - Docker configuration file
+* `make_prediction.sh` - for prediction
+* `Makefile` - makefile wit execution steps
+* `requirements.txt` - Contains dependencies and packages to be installed
+* `run_docker.sh` - Execute Docker container 
+* `run_kubernetes.sh` - running Kubernetes for pod script
+* `upload_docker.sh` - upload image script
