@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/cosy5104/project4-udacity.svg?style=svg&circle-token=<YOUR_STATUS_API_TOKEN>)](<LINK>)
+[![CircleCI](https://circleci.com/gh/cosy5104/project4-udacity.svg?style=svg&circle-token=<YOUR_STATUS_API_TOKEN>)](https://app.circleci.com/pipelines/github/cosy5104/project4-udacity/2/workflows/01fafeee-ec12-4b2f-a371-a4ee0d82f371/jobs/2)
 
 ## Project Overview
 
